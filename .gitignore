@@ -1,0 +1,35 @@
+node_modules/
+dist/
+node_modules
+.DS_Store
+.tmp
+tmp
+dist
+npm-debug.log*
+lerna-debug.log
+google-generated-credentials.json
+_START_PACKAGE
+.vscode/*
+!.vscode/extensions.json
+.idea
+nodelinter.config.json
+# Ignore npm lock files since we use pnpm
+package-lock.json
+packages/*/package-lock.json
+.github
+# files containing secrets
+secrets.env
+secret.env
+*/ansible/local/.env
+.env
+.env.*
+*.env
+!.env.example
+!*.env.example
+.env2
+# logs
+logs/
+# local static file uploads
+uploads/
+# crash-resume state for the Mongo→PG import (per-run, never commit)
+.migration-checkpoint.json
