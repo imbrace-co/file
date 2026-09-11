@@ -203,4 +203,4 @@ pnpm drizzle-kit pull
 
 ## License
 
-ISC
+MIT — see [LICENSE](LICENSE).
